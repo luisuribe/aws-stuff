@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+# Use this to create an ~/.ssh/config file with the list of all your EC2 instances. Better to put this script in a cronjob.
+
 require 'json'
 
 node_indexes = {}
